@@ -1,3 +1,22 @@
 #postCard {
   display: none;
 }
+p {
+  font-family: monospace;
+  margin: 20px
+}
+h5 {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+}
+.address {
+  padding: 70px
+}
+.bg2 {
+  background-color: lightblue
+}
+.col2{
+  border-right: 4px solid black;
+
+}
