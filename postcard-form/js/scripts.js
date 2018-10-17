@@ -5,11 +5,11 @@ $(document).ready(function() {
     var streetAddressInput = $("input#streetAddress").val();
     var cityStateZipInput= $("input#cityStateZip").val();
 
-    $(".yourName").append(yourNameInput);
-    $(".streetAddress").append(streetAddressInput);
-    $(".cityStateZip").append(cityStateZipInput);
+    $(".yourName").text(yourNameInput);
+    $(".streetAddress").text(streetAddressInput);
+    $(".cityStateZip").text(cityStateZipInput);
 
-    $("#postcard").show();
+    $("#postCard").show();
 
     event.preventDefault();
   });
